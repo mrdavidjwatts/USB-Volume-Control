@@ -879,7 +879,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="26.86" y="28.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$1" library="adafruit" package="TQFP44" value="ATMEGA32U4-AU" x="18.368028125" y="11.988028125" rot="R315"/>
-<element name="Q1" library="adafruit" package="HC49/S" value="" x="3.57" y="6.82" rot="R270">
+<element name="Q1" library="adafruit" package="HC49/S" value="16mhz" x="3.57" y="6.82" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="3.57" y="6.82" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="3.57" y="6.82" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="3.57" y="6.82" size="1.778" layer="27" rot="R270" display="off"/>
@@ -899,8 +899,8 @@ design rules under a new name.</description>
 <element name="R4" library="solar3-1" package="R0805" value="22ohm" x="10.5656875" y="19.117159375" rot="R135"/>
 <element name="R5" library="solar3-1" package="R0805" value="22ohm" x="12.3757375" y="20.65858125" rot="R135"/>
 <element name="C5" library="adafruit" package="C0805" value="1uf" x="8.951471875" y="17.351471875" rot="R135"/>
-<element name="C6" library="adafruit" package="C0805" value="" x="22.05858125" y="20.024265625" rot="R135"/>
-<element name="R6" library="solar3-1" package="R0805" value="" x="26.2" y="17.6" rot="R270"/>
+<element name="C6" library="adafruit" package="C0805" value="100uf" x="22.05858125" y="20.024265625" rot="R135"/>
+<element name="R6" library="solar3-1" package="R0805" value="10k" x="26.2" y="17.6" rot="R270"/>
 <element name="JP2" library="adafruit" package="1X03" value="" x="32" y="17.8"/>
 <element name="R7" library="solar3-1" package="R0805" value="300" x="34.4" y="20.8"/>
 <element name="PWR" library="adafruit" package="CHIPLED_1206" value="" x="33.4" y="35.6" rot="R90"/>

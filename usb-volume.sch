@@ -7938,11 +7938,10 @@ type V526-0, grid 2.5 mm</description>
 <parts>
 <part name="U$1" library="adafruit" deviceset="ATMEGA32U4" device="-AU"/>
 <part name="SW1" library="piher" deviceset="CI-11" device=""/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="Q1" library="adafruit" deviceset="CRYSTAL" device="HC49S"/>
+<part name="Q1" library="adafruit" deviceset="CRYSTAL" device="HC49S" value="16mhz"/>
 <part name="CN1" library="adafruit" deviceset="USB" device="MINIB"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -7966,8 +7965,8 @@ type V526-0, grid 2.5 mm</description>
 <part name="R4" library="solar3-1" deviceset="R-EU_" device="R0805" value="22ohm"/>
 <part name="R5" library="solar3-1" deviceset="R-EU_" device="R0805" value="22ohm"/>
 <part name="C5" library="adafruit" deviceset="C-US" device="C0805" value="1uf"/>
-<part name="C6" library="adafruit" deviceset="C-US" device="C0805"/>
-<part name="R6" library="solar3-1" deviceset="R-EU_" device="R0805"/>
+<part name="C6" library="adafruit" deviceset="C-US" device="C0805" value="100uf"/>
+<part name="R6" library="solar3-1" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="R7" library="solar3-1" deviceset="R-EU_" device="R0805" value="300"/>
@@ -7988,7 +7987,6 @@ type V526-0, grid 2.5 mm</description>
 <instance part="U$1" gate="G$1" x="66.04" y="50.8"/>
 <instance part="SW1" gate="A" x="114.3" y="38.1"/>
 <instance part="SW1" gate="B" x="132.08" y="38.1"/>
-<instance part="GND1" gate="1" x="106.68" y="43.18"/>
 <instance part="P+1" gate="1" x="116.84" y="101.6"/>
 <instance part="GND2" gate="1" x="40.64" y="12.7"/>
 <instance part="P+2" gate="1" x="33.02" y="86.36"/>
