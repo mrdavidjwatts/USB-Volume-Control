@@ -1,6 +1,6 @@
 #USB-Volume-Control
 
-Control Volume in your computer using this board!
+Control Volume in your computer using this board! It takes advantage of the NicoHood HID library and core, make sure you have it installed in your Arduino IDE before running the code supplied - https://github.com/NicoHood/HID/wiki
 
 ##BOM
 
@@ -23,14 +23,14 @@ Atmega32u4-AU
 
 22pF THT
 
-###Leds
+###LEDs
 
-2 x led 1216
-led THT 5mm
+2 x LED 1206 SMD
+LED THT 5mm
 
 ###Other
 
-USB Mini
+USB Mini type B
 Rotary Encoder
 Crystal HC49S 16MHz
 1x06 Header 2.54 mm or 0.1 in pitch
