@@ -1,4 +1,5 @@
 #include <Encoder.h>
+#include "HID-Project.h"
 Encoder myEnc(3,2);
 const int pinLed = LED_BUILTIN;
 const int pinButton = 12;
